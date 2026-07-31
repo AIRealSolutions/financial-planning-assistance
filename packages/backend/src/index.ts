@@ -41,6 +41,10 @@ app.get('/api/health', (req: Request, res: Response) => {
 // Auth routes (public)
 app.use('/api/auth', authRoutes);
 
+// CRM routes (protected)
+import crmRoutes from './routes/crm.routes';
+app.use('/api/crm', crmRoutes);
+
 // Protected routes
 app.get('/api/profile', authenticate, (req: Request, res: Response) => {
   res.json({
