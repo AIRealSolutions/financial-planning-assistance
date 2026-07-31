@@ -85,9 +85,14 @@ export default function Dashboard() {
                 </Link>
               </li>
               <li>
-                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">
+                <Link href="/calendar" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">
                   📅 Calendar
-                </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/tasks" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">
+                  ✓ Tasks
+                </Link>
               </li>
               <li>
                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">
