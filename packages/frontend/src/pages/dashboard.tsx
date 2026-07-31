@@ -126,6 +126,15 @@ export default function Dashboard() {
                   📆 Annual Calendar
                 </Link>
               </li>
+              <li className="border-t pt-2 mt-2">
+                <p className="text-xs font-bold text-gray-500 px-4 py-2 uppercase">AI & Automation</p>
+                <Link href="/ai/recommendations" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded ml-2">
+                  🤖 AI Recommendations
+                </Link>
+                <Link href="/ai/plan-generator" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded ml-2">
+                  📋 Plan Generator
+                </Link>
+              </li>
               <li>
                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">
                   ⚙️ Settings

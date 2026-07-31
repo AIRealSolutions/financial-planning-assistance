@@ -61,6 +61,10 @@ app.use('/api/communications', communicationsRoutes);
 import marketingRoutes from './routes/marketing.routes';
 app.use('/api/marketing', marketingRoutes);
 
+// AI routes (protected)
+import aiRoutes from './routes/ai.routes';
+app.use('/api/ai', aiRoutes);
+
 // Protected routes
 app.get('/api/profile', authenticate, (req: Request, res: Response) => {
   res.json({
