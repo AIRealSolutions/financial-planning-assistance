@@ -49,6 +49,10 @@ app.use('/api/crm', crmRoutes);
 import operationsRoutes from './routes/operations.routes';
 app.use('/api/operations', operationsRoutes);
 
+// Planning routes (protected)
+import planningRoutes from './routes/planning.routes';
+app.use('/api/planning', planningRoutes);
+
 // Protected routes
 app.get('/api/profile', authenticate, (req: Request, res: Response) => {
   res.json({
