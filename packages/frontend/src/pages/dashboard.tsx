@@ -95,19 +95,29 @@ export default function Dashboard() {
                 </Link>
               </li>
               <li>
-                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">
+                <Link href="/planning" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">
                   💰 Planning
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">
                   📧 Marketing
                 </a>
               </li>
-              <li>
-                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">
-                  🔔 Communications
-                </a>
+              <li className="border-t pt-2 mt-2">
+                <p className="text-xs font-bold text-gray-500 px-4 py-2 uppercase">Communications</p>
+                <Link href="/communications/events" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded ml-2">
+                  📌 Events
+                </Link>
+                <Link href="/communications/notifications" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded ml-2">
+                  🔔 Notifications
+                </Link>
+                <Link href="/communications/reminders" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded ml-2">
+                  ⏰ Reminders
+                </Link>
+                <Link href="/communications/calendar" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded ml-2">
+                  📆 Annual Calendar
+                </Link>
               </li>
               <li>
                 <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">
