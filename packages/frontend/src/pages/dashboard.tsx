@@ -99,10 +99,17 @@ export default function Dashboard() {
                   💰 Planning
                 </Link>
               </li>
-              <li>
-                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">
-                  📧 Marketing
-                </a>
+              <li className="border-t pt-2 mt-2">
+                <p className="text-xs font-bold text-gray-500 px-4 py-2 uppercase">Marketing</p>
+                <Link href="/marketing/campaigns" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded ml-2">
+                  📧 Campaigns
+                </Link>
+                <Link href="/marketing/automations" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded ml-2">
+                  🤖 Automations
+                </Link>
+                <Link href="/marketing/analytics" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded ml-2">
+                  📊 Analytics
+                </Link>
               </li>
               <li className="border-t pt-2 mt-2">
                 <p className="text-xs font-bold text-gray-500 px-4 py-2 uppercase">Communications</p>
